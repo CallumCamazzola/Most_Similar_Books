@@ -1,6 +1,5 @@
 from recsys import similarity
 
-# Do not change this function.  You must use this function.
 def format_similar_message(source_book_title, 
                            most_similar_title, 
                            similarity_score):
