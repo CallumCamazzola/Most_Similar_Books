@@ -43,13 +43,6 @@ def test_similarity_identical_books():
     (typical vector lengths of 1 to 3).  Note that an all zero vector has 
     a similarity of zero with itself and not similarity of 1.
     """
-    # To test that two numbers, actual and expected, are within 0.0001 of 
-    #  each other, do:
-    #  assert math.isclose(actual, expected, abs_tol=0.0001)
-    #
-    # For more info: https://docs.python.org/3/library/math.html#math.isclose
-    #
-    
     vector1 = [1,4,2]
     vector2 = [1,4,2]
     result = similarity(vector1,vector2)
@@ -78,7 +71,7 @@ def test_similarity_diff_books():
     different vector pairs and lengths of vectors (typical vector lengths of
     1 to 3). 
     """
-    # To be written by student.  When done, delete this comment.
+    
     vector1 = [2,3,4]
     vector2 = [1,4,2]
     result = similarity(vector1,vector2)
